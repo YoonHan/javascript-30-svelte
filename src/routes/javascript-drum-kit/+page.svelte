@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte'
 	import KeyboardButton from './components/KeyboardButton.svelte'
 	import clapSound from './assets/sounds/clap.wav'
 	import hihatSound from './assets/sounds/hihat.wav'
@@ -11,6 +10,10 @@
 	import tomSound from './assets/sounds/tom.wav'
 	import tinkSound from './assets/sounds/tink.wav'
 </script>
+
+<svelte:head>
+	<title>JavaScript Drum Kit 🥁</title>
+</svelte:head>
 
 <main class="wrapper">
 	<section class="keys-wrapper">
